@@ -12,7 +12,7 @@ export default {
           100: '#272727',
           200: '#3A3A3A'
         },
-        Purple: {
+        purple: {
           50: '#C3BEDE',
           100: '#B2AADB',
           200: '#A197D9',
