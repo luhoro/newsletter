@@ -5,14 +5,18 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate accumsan sapien, pellentesque pharetra est bibendum in. Vivamus rutrum efficitur feugiat. Vivamus non auctor purus. Ut finibus nulla vitae lobortis pulvinar. Pellentesque feugiat tristique magna, vel vehicula orci dignissim sed. Sed tempor nunc vitae semper tempus.",
       "Nam elementum, libero id porta porttitor, enim lacus viverra dolor, eget cursus turpis ipsum et velit. Etiam ex sem, auctor non egestas mattis, aliquet vitae tortor. Aliquam blandit est sed rutrum viverra. Pellentesque eget enim nibh. Aenean in accumsan ex. Donec nec ipsum in odio dignissim porttitor. Nunc tempus justo eu varius lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a eros ultricies, euismod neque et, volutpat massa."
     ],
+    "image": "https://umdesenvolvedoriniciante.com/wp-content/uploads/2022/07/podcast-sobre-programacao.jpg.webp",
+    "alt": "Imagem colorida com um desenho escrito 'podcast'.",
     "tags": ["podcast", "programacao"]
   },
   {
     "title": "Monitoria diária no Discord",
     "text": [
       "Vestibulum nisl nisl, efficitur sit amet leo at, condimentum lacinia arcu. Pellentesque a porta mi, sit amet ultrices lorem. Donec blandit scelerisque feugiat. Suspendisse ex arcu, ultrices sit amet felis sed, porta lacinia odio. In consequat pharetra ante, nec placerat lectus pretium eu. Nunc efficitur lorem ut nisi auctor, at condimentum felis sodales. Curabitur dignissim et nunc at tristique. Nunc vestibulum nibh eu mauris vehicula, vel auctor ligula venenatis.",
-      "Integer pulvinar bibendum turpis, nec tristique orci eleifend et. Morbi accumsan nibh at lectus bibendum, nec sodales arcu tempus. Etiam sagittis elit lorem, vitae fermentum magna consectetur sed. Vestibulum auctor hendrerit ipsum ut dapibus. Duis est elit, consectetur sit amet molestie quis, scelerisque consequat diam. Nulla ultrices hendrerit sem, et lobortis magna finibus egestas. Phasellus mi arcu, placerat ac scelerisque in, finibus et justo."
+      "Etiam sagittis elit lorem, vitae fermentum magna consectetur sed. Vestibulum auctor hendrerit ipsum ut dapibus. Duis est elit, consectetur sit amet molestie quis, scelerisque consequat diam. Nulla ultrices hendrerit sem, et lobortis magna finibus egestas. Phasellus mi arcu, placerat ac scelerisque in, finibus et justo."
     ],
+    "image": "https://img.olhardigital.com.br/wp-content/uploads/2021/09/Discord.jpeg",
+    "alt": "Imagem ilustrativa de um celular com a logo do aplicativo Discord.",
     "tags": ["discord", "monitoria"]
   },
   {
@@ -21,6 +25,8 @@
       "Curabitur venenatis justo blandit ipsum fringilla ultricies. Nullam dictum turpis vel pretium dignissim. Aenean dictum quam lorem, sit amet volutpat lectus ultricies at. Morbi et sapien vitae sapien vehicula varius. Aliquam erat sapien, gravida non vehicula in, molestie vitae justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor dapibus urna, nec feugiat augue suscipit at. Aliquam erat volutpat.",
       "Nam sollicitudin pharetra mi. Vestibulum quis scelerisque massa, vitae varius tellus. Ut finibus volutpat nisl, in porta nisi interdum id. Aliquam consequat pretium condimentum. Quisque ac velit vitae leo convallis pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vestibulum tellus at sapien tincidunt imperdiet. Nulla sit amet felis tellus"
     ],
+    "image": "https://coodesh.com/blog/wp-content/uploads/2021/03/devs-mudancas-na-plataforma-scaled.jpg",
+    "alt": "Um desenho virtual de uma mulher apontando para um notebook com escritas de programação.",
     "tags": ["front-end", "node", "react"]
   },
   {
@@ -29,8 +35,28 @@
       "Aenean feugiat sodales nibh, quis tempor tortor finibus quis. Maecenas id enim eu eros molestie volutpat sit amet eget nisi. Cras vitae neque a dolor vehicula sagittis. Proin vitae malesuada justo. Fusce cursus neque erat, in vulputate neque sodales eget. Aliquam erat volutpat. In hac habitasse platea dictumst. Etiam at metus lacus.",
       "Mauris lobortis elit sed neque tempus, vel lobortis ex rutrum. Donec lectus libero, iaculis eu lorem id, finibus eleifend elit. Pellentesque imperdiet erat sit amet consectetur placerat. Maecenas scelerisque consectetur felis, nec faucibus mi pellentesque a. Nunc vel nibh et magna luctus gravida. Vestibulum sagittis libero eu tempor vestibulum."
     ],
-    "image": "/covers/example.png",
-    "alt": "Screenshot do Youtube com a thumbnail do podcast",
+    "image": "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2023/02/Portfolio-Desenvolvedor-Web.png",
+    "alt": "Imagem ilustrativa de uma pessoa mexendo em um notebook, com a palavra 'portfolio' atrás.",
     "tags": ["carreira", "podcast", "portfolio"]
+  },
+  {
+    "title": "Dicas para um estudo efetivo",
+    "text": [
+      "Praesent efficitur nunc in nunc tristique finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus ac augue vitae orci condimentum feugiat. Pellentesque nisl ante, ornare et vestibulum id, gravida eu metus. Nunc vitae suscipit augue. Curabitur pulvinar nec leo vitae efficitur. Nulla congue nec augue id consectetur.",
+      "Aenean sapien quam, lacinia et bibendum sit amet, congue sed enim. Ut ac nunc dapibus, ornare mi sit amet, lobortis est. Suspendisse dictum leo nec quam cursus, ut laoreet tellus pretium. Curabitur blandit felis a libero tincidunt fermentum. Vestibulum non vestibulum felis, a interdum nulla. Aenean egestas metus lacus, non placerat mauris ornare in. Sed non felis fermentum, scelerisque ipsum non, gravida libero. Nam et felis in ex ornare viverra vitae non massa."
+    ],
+    "image": "https://assets.bitdegree.org/online-learning-platforms/storage/media/2018/08/what-is-a-web-developer.jpg",
+    "alt": "Desenho de uma pessoa vista de trás sentada em uma cadeira e mexendo em um computador.",
+    "tags": ["programacao", "rotina", "estudo"]
+  },
+  {
+    "title": "Notebooks recomendados para programação",
+    "text": [
+      "Maecenas condimentum ornare leo, id bibendum leo rhoncus nec. Vestibulum placerat, diam ac blandit placerat, justo velit luctus nunc, at dignissim quam arcu quis erat. Curabitur id finibus tortor. Sed tempor gravida ex, quis consectetur urna sagittis vitae. Proin vel velit lacinia, porta lectus tempor, tempor nibh. Ut vulputate semper sapien quis cursus. Nullam nisl ex, consequat in luctus ac, mattis sed justo. Proin quis massa nunc. Suspendisse et egestas mi, vitae mollis magna",
+      "Duis scelerisque odio sed est dapibus lobortis. In hac habitasse platea dictumst. Proin sed quam mollis, ornare dui aliquam, aliquam dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique mattis ultricies. Nullam lacinia eros mauris, sit amet elementum ipsum convallis non."
+    ],
+    "image": "https://d13kjxnqnhcmn2.cloudfront.net/AcuCustom/Sitename/DAM/051/Web_development_-_Main.png",
+    "alt": "Imagem de um notebook aberto com efeitos em rosa e roxo.",
+    "tags": ["estudo", "notebooks"]
   }
 ]

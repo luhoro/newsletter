@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = ({ title, text, tags, image, alt }) => {
   return (
-    <div className='mx-2 p-5 bg-gray-200 dark:bg-dark-200 dark:text-gray-200 rounded-xl shadow-lg'>
+    <div className='flex flex-col justify-between mx-2 p-5 bg-gray-200 dark:bg-dark-200 dark:text-gray-200 rounded-xl shadow-lg'>
       <h3 className='text-xl text-purple-500 font-bold mb-2 dark:text-gray-200'>
         {title}
       </h3>
@@ -15,7 +15,7 @@ const Article = ({ title, text, tags, image, alt }) => {
         }
       </div>
 
-      <div className='grid gap-1'>
+      <div className='grid gap-5'>
         { text.map((content, index) =>
             <p key={index} className='dark:text-gray-400'>
               {content}
@@ -23,8 +23,8 @@ const Article = ({ title, text, tags, image, alt }) => {
         )}
       </div>
 
-      <div className='mt-4'>
-        {image && <img className='rounded-md' src={image} />}
+      <div className='mt-4 h-[200px] w-full'>
+        {image && <img className='rounded-md object-cover h-full w-full' src={image} />}
         {image && alt && <span className='sr-only'>{alt}</span>}
       </div>
     </div>
