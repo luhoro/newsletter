@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = ({ title, text, tags, image, alt }) => {
   return (
-    <div className='flex flex-col justify-between mx-2 p-5 bg-gray-200 dark:bg-dark-200 dark:text-gray-200 rounded-xl shadow-lg'>
+    <div className='flex flex-col justify-between mx-2 p-5 bg-gray-300 dark:bg-dark-200 dark:text-gray-200 rounded-xl shadow-lg transition-all hover:-translate-y-1'>
       <h3 className='text-xl text-purple-500 font-bold mb-2 dark:text-gray-200'>
         {title}
       </h3>
@@ -10,7 +10,7 @@ const Article = ({ title, text, tags, image, alt }) => {
       <div className='flex gap-2 mb-3'>
         {
           tags.map(tag =>
-            <span className='uppercase text-sm px-2 py-1 bg-purple-300 rounded-md font-bold text-white dark:text-gray-200' key={tag}>{tag}</span>
+            <span className='uppercase text-sm px-2 py-1 bg-purple-300 rounded-md font-bold text-white dark:text-gray-200 transition-all hover:bg-purple-400 hover:scale-105' key={tag}>{tag}</span>
           )
         }
       </div>
