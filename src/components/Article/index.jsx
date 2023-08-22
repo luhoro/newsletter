@@ -8,7 +8,7 @@ const Article = ({ title, text, tags, image, alt }) => {
       <div className='flex flex-wrap gap-2 mb-3'>
         {
           tags.map(tag =>
-            <span className='uppercase text-sm px-2 py-1 bg-purple-300 rounded-md font-bold text-white dark:text-gray-200 transition-all hover:bg-purple-400 hover:scale-105' key={tag}>{tag}</span>
+            <span className='uppercase text-sm px-2 py-1 bg-purple-300 rounded-md font-bold text-white dark:text-gray-200 transition-all duration-300 hover:bg-purple-400 hover:bg-gradient-to-l dark:hover:from-slate-600 hover:from-slate-400 cursor-default' key={tag}>{tag}</span>
           )
         }
       </div>

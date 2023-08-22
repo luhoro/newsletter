@@ -1,8 +1,8 @@
 import { useState } from "react"
 
-import ArticleList from "./components/ArticleList/ArticleList"
-import Header from "./components/Header/Header"
-import Form from "./components/Form/Form"
+import ArticleList from "./components/ArticleList"
+import Header from "./components/Header"
+import Form from "./components/Form"
 
 const App = () => {
 

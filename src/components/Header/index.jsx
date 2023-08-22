@@ -1,4 +1,4 @@
-import ToggleTheme from '../ToggleTheme/ToggleTheme'
+import ToggleTheme from '../ToggleTheme'
 import logo from '/logo.svg'
 
 const Header = ({ user }) => {
@@ -10,7 +10,7 @@ const Header = ({ user }) => {
 
       <div className='flex items-center gap-3 transition-all sm:hover:scale-110 cursor-default'>
         <img src={logo} alt="Logo Newsletter" className='h-9' />
-        <h1 className='text-gray-100 text-xl'> Newsletter </h1>
+        <h1> Newsletter </h1>
       </div>
 
       <ToggleTheme />

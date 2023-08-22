@@ -19,7 +19,7 @@ const Form = ({ onSubmit }) => {
       <Input required type="text" placeholder=". . ." name="nome"/>
       <Input required type="email" placeholder=". . ." name="e-mail"/>
 
-      <button type='submit' className='bg-purple-700 rounded-xl px-8 py-2 text-white hover:animate-pulse '>
+      <button type='submit' className='main-button'>
         Seguir
       </button>
     </form>
