@@ -1,11 +1,10 @@
-import React from 'react'
 import ToggleTheme from '../ToggleTheme/ToggleTheme'
 import logo from '/logo.svg'
 
 const Header = ({ user }) => {
   return (
     <div className='flex h-20 bg-purple-600 justify-between items-center px-5 sm:rounded-xl sm:m-5'>
-      <span className='text-gray-100'>
+      <span className='text-gray-100 relative left-8'>
         Olá, {user && user + '!' || 'Usuário!'}
       </span>
 

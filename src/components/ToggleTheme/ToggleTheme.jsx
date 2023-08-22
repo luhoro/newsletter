@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { SunIcon, MoonIcon} from '@heroicons/react/24/solid'
 
 const ToggleTheme = () => {
@@ -14,7 +14,7 @@ const ToggleTheme = () => {
   }
 
   return (
-    <div className="absolute sm:relative sm:block cursor-pointer left-32 sm:left-0">
+    <div className="absolute sm:static cursor-pointer left-4">
       <MoonIcon className='block dark:hidden h-8 text-gray-100' onClick={toggle}/>
       <SunIcon className='hidden dark:block h-8 text-gray-100' onClick={toggle}/>
     </div>
