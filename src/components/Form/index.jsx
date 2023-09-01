@@ -11,7 +11,7 @@ const Form = ({ onSubmit }) => {
   }
 
   return (
-    <form onSubmit={saveSubmit} className='h-full flex flex-col gap-5 items-center justify-center mt-28'>
+    <form onSubmit={saveSubmit} className='h-full flex flex-col gap-5 items-center justify-center my-12 sm:my-28'>
       <h3 className='dark:text-white text-lg font-bold'>
         Preecha para prosseguir
       </h3>

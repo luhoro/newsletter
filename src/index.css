@@ -4,6 +4,7 @@
 
 @layer base {
   h1 { @apply text-gray-100 text-xl font-bold }
+  h5 { @apply font-bold }
 }
 
 @layer components {
@@ -12,7 +13,7 @@
   }
 
   .main-input {
-    @apply px-1 py-1 my-2 ml-2 bg-transparent invalid:focus:outline-1 invalid:focus:outline-red-400 caret-purple-200 dark:caret-purple-100
+    @apply px-1 py-1 my-2 ml-2 bg-transparent invalid:focus:outline-1 invalid:focus:outline-red-400 caret-purple-200 dark:caret-purple-100 delay-200
   }
 
   .main-button {

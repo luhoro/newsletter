@@ -8,7 +8,7 @@ const Header = ({ user }) => {
         Olá, {user && user + '!' || 'Usuário!'}
       </span>
 
-      <div className='flex items-center gap-3 transition-all sm:hover:scale-110 cursor-default'>
+      <div className='flex items-center gap-3 cursor-default'>
         <img src={logo} alt="Logo Newsletter" className='h-9' />
         <h1> Newsletter </h1>
       </div>

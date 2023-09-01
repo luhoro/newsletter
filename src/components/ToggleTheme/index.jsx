@@ -14,7 +14,7 @@ const ToggleTheme = () => {
   }
 
   return (
-    <div className="absolute sm:static cursor-pointer left-4">
+    <div className="absolute sm:static cursor-pointer left-4 transition-all hover:delay-200 hover:scale-125">
       <MoonIcon className='block dark:hidden h-8 text-gray-100' onClick={toggle}/>
       <SunIcon className='hidden dark:block h-8 text-gray-100' onClick={toggle}/>
     </div>

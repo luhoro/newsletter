@@ -3,6 +3,7 @@ import { useState } from "react"
 import ArticleList from "./components/ArticleList"
 import Header from "./components/Header"
 import Form from "./components/Form"
+import Footer from "./components/Footer"
 
 const App = () => {
 
@@ -12,11 +13,15 @@ const App = () => {
   console.log(user)
 
   return (
-    <>
-      <Header user={user} />
+    <div className="flex flex-col justify-between min-h-screen">
+      <div>
+        <Header user={user} />
+        {hasUser && <ArticleList /> || <Form onSubmit={setUser} />}
+      </div>
 
-      { hasUser && <ArticleList /> || <Form onSubmit={setUser} /> }
-    </>
+      <Footer />
+
+    </div>
   )
 }
 
